@@ -1,0 +1,73 @@
+html {
+    background-color: rgba(0, 0, 0, 95);
+    color: white;
+}
+
+header {
+    color: white;
+}
+
+main { 
+    background-color: rgba(0, 0, 0, 95);
+    color: white;
+    text-align: center;
+    padding: 25vmin;
+    display: block;
+    block-size: 40vmin;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 85);
+    font-size: 15vmin;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 5vmin;
+}
+
+img {
+    height: 20vmin;
+    margin: 15px;
+}
+
+section {
+    background-color: rgb(30, 204, 204);
+    border: solid 5vmin black;
+    margin: 1vmin;
+}
+
+footer {
+    background-color: rgb(30, 204, 204)
+}
+
+div {
+    background-color: antiquewhite;
+    border: solid 1px black;
+    display: block;
+    margin: auto;
+    margin-bottom: 5vmin;
+    block-size: 70vmin;
+}
+
+h4 {
+    font-size: 5vmin;
+    margin: 15px;
+    color: #000;
+
+}
+
+audio {
+    margin-left: 15px;
+}
+
+
+.fade-in-text {
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
